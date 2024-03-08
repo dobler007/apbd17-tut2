@@ -14,3 +14,6 @@ static double GetAverage(int[] nums)
 
     return sum / nums.Length;
 }
+
+int[] arr ={1,2,4,5,6,7,8,9};
+Console.WriteLine(GetAverage(arr));
